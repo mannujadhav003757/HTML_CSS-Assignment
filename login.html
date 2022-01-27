@@ -1,0 +1,42 @@
+<!DOCTYPE html>  <!-- html5  : tags : validation -->
+<html>
+<head>
+    <title>Log in</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="important words of webpage">
+    <meta name="description" content="short note regarding webpage">
+    <meta name="author" content="Author name">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../27Aug/asset/Css/login.css">
+    
+    </head>
+    <body>
+        <form name="frm1">
+            <div class="imgcontainer">
+              <img src="../27Aug/asset/media/toppng.com-loginsignupwishlist-transparent-login-ico-980x980.png" id="img1" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname" name="uname" ><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" id="inp1" required >
+              <p id="demo1"></p>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" id="inp2" placeholder="Enter Password" name="psw" required>
+              <p id="demo2"></p>
+              <label>
+                <input type="checkbox" checked="unchecked" name="remember"> Remember me
+              </label>
+              <button type="submit" onclick="return validateForm()"><a href="index.html">Login</a></button>
+              <button type="button" class="cancelbtn"><a href="index.html">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+
+            </div>
+          
+            
+          </form> 
+        
+        
+        <script src="Library/jquery-3.6.0.min.js"></script>
+        <script src="Library/Validation.js"></script>
+    </body>
+    </html>
